@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA76E4B71D38C64100F8C23A /* 11.png in Resources */ = {isa = PBXBuildFile; fileRef = CA76E4B61D38C64100F8C23A /* 11.png */; };
 		CA87062A1C9BA3E8003DE738 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA8706291C9BA3E8003DE738 /* main.m */; };
 		CA87062D1C9BA3E8003DE738 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA87062C1C9BA3E8003DE738 /* AppDelegate.m */; };
 		CA8706301C9BA3E8003DE738 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA87062F1C9BA3E8003DE738 /* ViewController.m */; };
@@ -15,6 +16,11 @@
 		CA8706381C9BA3E8003DE738 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA8706361C9BA3E8003DE738 /* LaunchScreen.storyboard */; };
 		CA8706431C9BA3E8003DE738 /* Test3DTouchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA8706421C9BA3E8003DE738 /* Test3DTouchTests.m */; };
 		CA87064E1C9BA3E8003DE738 /* Test3DTouchUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA87064D1C9BA3E8003DE738 /* Test3DTouchUITests.m */; };
+		CA87065E1C9BA61A003DE738 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA87065C1C9BA61A003DE738 /* MyViewController.m */; };
+		CA87065F1C9BA61A003DE738 /* MyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA87065D1C9BA61A003DE738 /* MyViewController.xib */; };
+		CA8706621C9BD96E003DE738 /* MyView.m in Sources */ = {isa = PBXBuildFile; fileRef = CA8706611C9BD96E003DE738 /* MyView.m */; };
+		CA8706661C9BF97B003DE738 /* My2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA8706641C9BF97B003DE738 /* My2ViewController.m */; };
+		CA8706671C9BF97B003DE738 /* My2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA8706651C9BF97B003DE738 /* My2ViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CA76E4B61D38C64100F8C23A /* 11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 11.png; sourceTree = "<group>"; };
 		CA8706251C9BA3E8003DE738 /* Test3DTouch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test3DTouch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA8706291C9BA3E8003DE738 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CA87062B1C9BA3E8003DE738 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +58,14 @@
 		CA8706491C9BA3E8003DE738 /* Test3DTouchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Test3DTouchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA87064D1C9BA3E8003DE738 /* Test3DTouchUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test3DTouchUITests.m; sourceTree = "<group>"; };
 		CA87064F1C9BA3E8003DE738 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA87065B1C9BA61A003DE738 /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		CA87065C1C9BA61A003DE738 /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
+		CA87065D1C9BA61A003DE738 /* MyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyViewController.xib; sourceTree = "<group>"; };
+		CA8706601C9BD96E003DE738 /* MyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyView.h; sourceTree = "<group>"; };
+		CA8706611C9BD96E003DE738 /* MyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyView.m; sourceTree = "<group>"; };
+		CA8706631C9BF97B003DE738 /* My2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = My2ViewController.h; sourceTree = "<group>"; };
+		CA8706641C9BF97B003DE738 /* My2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = My2ViewController.m; sourceTree = "<group>"; };
+		CA8706651C9BF97B003DE738 /* My2ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = My2ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +116,15 @@
 		CA8706271C9BA3E8003DE738 /* Test3DTouch */ = {
 			isa = PBXGroup;
 			children = (
+				CA76E4B61D38C64100F8C23A /* 11.png */,
+				CA8706631C9BF97B003DE738 /* My2ViewController.h */,
+				CA8706641C9BF97B003DE738 /* My2ViewController.m */,
+				CA8706651C9BF97B003DE738 /* My2ViewController.xib */,
+				CA8706601C9BD96E003DE738 /* MyView.h */,
+				CA8706611C9BD96E003DE738 /* MyView.m */,
+				CA87065B1C9BA61A003DE738 /* MyViewController.h */,
+				CA87065C1C9BA61A003DE738 /* MyViewController.m */,
+				CA87065D1C9BA61A003DE738 /* MyViewController.xib */,
 				CA87062B1C9BA3E8003DE738 /* AppDelegate.h */,
 				CA87062C1C9BA3E8003DE738 /* AppDelegate.m */,
 				CA87062E1C9BA3E8003DE738 /* ViewController.h */,
@@ -207,6 +231,7 @@
 				TargetAttributes = {
 					CA8706241C9BA3E8003DE738 = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 5B4T5TDHKM;
 					};
 					CA87063D1C9BA3E8003DE738 = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -244,7 +269,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA8706381C9BA3E8003DE738 /* LaunchScreen.storyboard in Resources */,
+				CA76E4B71D38C64100F8C23A /* 11.png in Resources */,
+				CA8706671C9BF97B003DE738 /* My2ViewController.xib in Resources */,
 				CA8706351C9BA3E8003DE738 /* Assets.xcassets in Resources */,
+				CA87065F1C9BA61A003DE738 /* MyViewController.xib in Resources */,
 				CA8706331C9BA3E8003DE738 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,7 +300,10 @@
 			files = (
 				CA8706301C9BA3E8003DE738 /* ViewController.m in Sources */,
 				CA87062D1C9BA3E8003DE738 /* AppDelegate.m in Sources */,
+				CA87065E1C9BA61A003DE738 /* MyViewController.m in Sources */,
 				CA87062A1C9BA3E8003DE738 /* main.m in Sources */,
+				CA8706621C9BD96E003DE738 /* MyView.m in Sources */,
+				CA8706661C9BF97B003DE738 /* My2ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,9 +444,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Baocai Du (896QED3HLA)";
 				INFOPLIST_FILE = Test3DTouch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ivy.use.com.Test3DTouch;
+				PRODUCT_BUNDLE_IDENTIFIER = ivy.own.use;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -424,9 +456,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Baocai Du (896QED3HLA)";
 				INFOPLIST_FILE = Test3DTouch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ivy.use.com.Test3DTouch;
+				PRODUCT_BUNDLE_IDENTIFIER = ivy.own.use;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -498,6 +531,7 @@
 				CA8706541C9BA3E8003DE738 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CA8706551C9BA3E8003DE738 /* Build configuration list for PBXNativeTarget "Test3DTouchTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +540,7 @@
 				CA8706571C9BA3E8003DE738 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CA8706581C9BA3E8003DE738 /* Build configuration list for PBXNativeTarget "Test3DTouchUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +549,7 @@
 				CA87065A1C9BA3E8003DE738 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
